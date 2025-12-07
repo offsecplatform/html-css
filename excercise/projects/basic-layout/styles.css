@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+/* Global CSS Start */
+.w-25 {
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.w-50 {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+/* Global CSS End */
+
+.header-area {
+    background-color: #2980b9;
+    overflow: hidden;
+    color: white;
+}
+.header-area .header-content {
+    padding-left: 10px;
+}
+.main-content-area {
+    color: white;
+    overflow: hidden;
+}
+.main-content-area .left-sidebar-area {
+    background-color: #27ae60;
+    overflow: hidden;
+    padding-left: 10px;
+
+}
+.main-content-area .content-area {
+    background-color: #e67e22;
+    overflow: hidden;
+    padding-left: 10px;
+
+    
+
+}
+.main-content-area .right-sidebar-area {
+    background-color: #2c3e50;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.footer-area {
+    background-color: #8e44ad;
+    color: white;
+    
+}
+.footer-area .footer-content {
+    overflow: hidden;
+    padding-left: 10px;
+}

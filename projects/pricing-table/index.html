@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table with Three Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page-wrapper">
+        <section class="pricing-section">
+            <header class="pricing-header">
+                <h1 class="pricing-title">Simple Pricing</h1>
+                <p class="pricing-subtitle">
+                    Choose the plan that fits your needs. You can practice layout, spacing, and basic styling with this
+                    table.
+                </p>
+            </header>
+
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <article class="plan-card">
+                    <h2 class="plan-name">Basic</h2>
+                    <p class="plan-price">
+                        <span class="price-amount">$9</span>
+                        <span class="price-period">/month</span>
+                    </p>
+                    <p class="plan-short">Good for trying things out.</p>
+                    <ul class="plan-features">
+                        <li>1 project</li>
+                        <li>Up to 2 collaborators</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="plan-button">Choose Basic</button>
+                </article>
+
+                <!-- Plan 2 (highlighted) -->
+                <article class="plan-card plan-featured">
+                    <p class="plan-label">Most popular</p>
+                    <h2 class="plan-name">Standard</h2>
+                    <p class="plan-price">
+                        <span class="price-amount">$19</span>
+                        <span class="price-period">/month</span>
+                    </p>
+                    <p class="plan-short">Nice for regular use.</p>
+                    <ul class="plan-features">
+                        <li>5 projects</li>
+                        <li>Up to 5 collaborators</li>
+                        <li>Priority email support</li>
+                    </ul>
+                    <button class="plan-button primary">Choose Standard</button>
+                </article>
+
+                <!-- Plan 3 -->
+                <article class="plan-card">
+                    <h2 class="plan-name">Premium</h2>
+                    <p class="plan-price">
+                        <span class="price-amount">$29</span>
+                        <span class="price-period">/month</span>
+                    </p>
+                    <p class="plan-short">For more advanced needs.</p>
+                    <ul class="plan-features">
+                        <li>Unlimited projects</li>
+                        <li>Unlimited collaborators</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <button class="plan-button">Choose Premium</button>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo">Saide Hossain</div>
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="hero-label">Portfolio</p>
+                    <h1 class="hero-title">Hi, I'm Saide Hossain</h1>
+                    <p class="hero-subtitle">Frontend developer learning HTML & CSS.</p>
+                    <p class="hero-body">
+                        I enjoy building simple, clean interfaces while practicing core web
+                        fundamentals. This is a minimal landing page built with just HTML and CSS.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn primary">View projects</a>
+                        <a href="#contact" class="btn secondary">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container section-inner">
+                <h2 class="section-title">About</h2>
+                <p class="section-text">
+                    I am practicing web development with small projects like profile cards,
+                    login forms, and landing pages. My focus is on writing clean HTML and
+                    simple, readable CSS without frameworks.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-alt">
+            <div class="container section-inner">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3 class="project-title">Profile Card</h3>
+                        <p class="project-text">
+                            A simple personal profile card layout built with flexbox and basic styling.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-title">Login Form</h3>
+                        <p class="project-text">
+                            Centered login UI focusing on clean inputs and a clear call-to-action button.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3 class="project-title">This Portfolio</h3>
+                        <p class="project-text">
+                            A minimal landing page with sections for about, projects, and contact.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container section-inner">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-text">
+                    You can reach me by email or connect with me on any platform you like.
+                </p>
+                <div class="contact-list">
+                    <a href="mailto:saide@offsecplatform.com">saide@offsecplatform.com</a>
+                    <a href="https://www.linkedin.com/in/saidesec/">LinkedIn</a>
+                    <a href="https://github.com/offsecplatform">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2025 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
